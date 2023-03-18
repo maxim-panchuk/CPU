@@ -1,0 +1,291 @@
+[
+    {
+        "opcode": "PUSH",
+        "arg": "0",
+        "term": [
+            1,
+            "PUSH",
+            "0"
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "1",
+        "term": [
+            2,
+            "PUSH",
+            "1"
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "2",
+        "term": [
+            3,
+            "PUSH",
+            "2"
+        ]
+    },
+    {
+        "opcode": "BEGIN",
+        "term": [
+            4,
+            "BEGIN",
+            null
+        ]
+    },
+    {
+        "opcode": "DUP",
+        "term": [
+            5,
+            "DUP",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "4000000",
+        "term": [
+            6,
+            "PUSH",
+            "4000000"
+        ]
+    },
+    {
+        "opcode": "LT",
+        "term": [
+            7,
+            "LT",
+            null
+        ]
+    },
+    {
+        "opcode": "JNT",
+        "arg": 32,
+        "term": [
+            8,
+            "WHILE",
+            null
+        ]
+    },
+    {
+        "opcode": "DUP",
+        "term": [
+            9,
+            "DUP",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "2",
+        "term": [
+            10,
+            "PUSH",
+            "2"
+        ]
+    },
+    {
+        "opcode": "MOD",
+        "term": [
+            11,
+            "MOD",
+            null
+        ]
+    },
+    {
+        "opcode": "INVERT",
+        "term": [
+            12,
+            "INVERT",
+            null
+        ]
+    },
+    {
+        "opcode": "JNT",
+        "arg": 24,
+        "term": [
+            13,
+            "IF",
+            null
+        ]
+    },
+    {
+        "opcode": "ROT",
+        "term": [
+            14,
+            "ROT",
+            null
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            15,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "PLUS",
+        "term": [
+            16,
+            "PLUS",
+            null
+        ]
+    },
+    {
+        "opcode": "SWAP",
+        "term": [
+            17,
+            "SWAP",
+            null
+        ]
+    },
+    {
+        "opcode": "ROT",
+        "term": [
+            18,
+            "ROT",
+            null
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            19,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            20,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "PLUS",
+        "term": [
+            21,
+            "PLUS",
+            null
+        ]
+    },
+    {
+        "opcode": "SWAP",
+        "term": [
+            22,
+            "SWAP",
+            null
+        ]
+    },
+    {
+        "opcode": "DROP",
+        "term": [
+            23,
+            "DROP",
+            null
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "arg": 31,
+        "term": [
+            24,
+            "ELSE",
+            null
+        ]
+    },
+    {
+        "opcode": "SWAP",
+        "term": [
+            25,
+            "SWAP",
+            null
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            26,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            27,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "PLUS",
+        "term": [
+            28,
+            "PLUS",
+            null
+        ]
+    },
+    {
+        "opcode": "SWAP",
+        "term": [
+            29,
+            "SWAP",
+            null
+        ]
+    },
+    {
+        "opcode": "DROP",
+        "term": [
+            30,
+            "DROP",
+            null
+        ]
+    },
+    {
+        "opcode": "NOP",
+        "term": [
+            31,
+            "ENDIF",
+            null
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "arg": 4,
+        "term": [
+            32,
+            "REPEAT",
+            null
+        ]
+    },
+    {
+        "opcode": "ROT",
+        "term": [
+            33,
+            "ROT",
+            null
+        ]
+    },
+    {
+        "opcode": "WRITE_OUT",
+        "term": [
+            34,
+            "WRITE_OUT",
+            null
+        ]
+    },
+    {
+        "opcode": "HALT",
+        "term": [
+            35,
+            "HALT",
+            null
+        ]
+    }
+]

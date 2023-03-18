@@ -1,0 +1,79 @@
+[
+    {
+        "opcode": "PUSH",
+        "arg": "-1",
+        "term": [
+            1,
+            "PUSH",
+            "-1"
+        ]
+    },
+    {
+        "opcode": "JNT",
+        "arg": 5,
+        "term": [
+            2,
+            "IF",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "-1",
+        "term": [
+            3,
+            "PUSH",
+            "-1"
+        ]
+    },
+    {
+        "opcode": "WRITE_OUT",
+        "term": [
+            4,
+            "WRITE_OUT",
+            null
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "arg": 8,
+        "term": [
+            5,
+            "ELSE",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "0",
+        "term": [
+            6,
+            "PUSH",
+            "0"
+        ]
+    },
+    {
+        "opcode": "WRITE_OUT",
+        "term": [
+            7,
+            "WRITE_OUT",
+            null
+        ]
+    },
+    {
+        "opcode": "NOP",
+        "term": [
+            8,
+            "ENDIF",
+            null
+        ]
+    },
+    {
+        "opcode": "HALT",
+        "term": [
+            9,
+            "HALT",
+            null
+        ]
+    }
+]

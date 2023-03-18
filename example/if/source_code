@@ -1,0 +1,8 @@
+PUSH -1
+IF
+    PUSH -1
+    WRITE_OUT
+ELSE
+    PUSH 0
+    WRITE_OUT
+ENDIF

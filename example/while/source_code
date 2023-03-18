@@ -1,0 +1,11 @@
+PUSH -5
+BEGIN
+    PUSH 1
+    PLUS
+    DUP
+    PUSH 0
+    LT
+WHILE
+    DUP
+    WRITE_OUT
+REPEAT

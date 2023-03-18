@@ -1,0 +1,104 @@
+[
+    {
+        "opcode": "PUSH",
+        "arg": 0,
+        "term": [
+            5,
+            "PUSH",
+            0
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "20",
+        "term": [
+            6,
+            "PUSH",
+            "20"
+        ]
+    },
+    {
+        "opcode": "BEGIN",
+        "term": [
+            8,
+            "BEGIN",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "20",
+        "term": [
+            9,
+            "PUSH",
+            "20"
+        ]
+    },
+    {
+        "opcode": "READ_NDR",
+        "term": [
+            10,
+            "READ_NDR",
+            null
+        ]
+    },
+    {
+        "opcode": "PUSH",
+        "arg": "0",
+        "term": [
+            11,
+            "PUSH",
+            "0"
+        ]
+    },
+    {
+        "opcode": "OVER",
+        "term": [
+            12,
+            "OVER",
+            null
+        ]
+    },
+    {
+        "opcode": "LT",
+        "term": [
+            13,
+            "LT",
+            null
+        ]
+    },
+    {
+        "opcode": "JNT",
+        "arg": 11,
+        "term": [
+            15,
+            "WHILE",
+            null
+        ]
+    },
+    {
+        "opcode": "WRITE_OUT",
+        "term": [
+            16,
+            "WRITE_OUT",
+            null
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "arg": 3,
+        "term": [
+            17,
+            "REPEAT",
+            null
+        ]
+    },
+    {
+        "opcode": "HALT",
+        "term": [
+            12,
+            "HALT",
+            null
+        ]
+    }
+]

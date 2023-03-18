@@ -1,0 +1,34 @@
+PUSH 0
+PUSH 1
+PUSH 2
+BEGIN
+    DUP
+    PUSH 4000000
+    LT
+WHILE
+    DUP
+    PUSH 2
+    MOD
+    INVERT
+    IF
+        ROT
+        OVER
+        PLUS
+        SWAP
+        ROT
+        OVER
+        OVER
+        PLUS
+        SWAP
+        DROP
+    ELSE
+        SWAP
+        OVER
+        OVER
+        PLUS
+        SWAP
+        DROP
+    ENDIF
+REPEAT
+    ROT
+    WRITE_OUT
